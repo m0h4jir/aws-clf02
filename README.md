@@ -10,6 +10,7 @@ If you’ve landed here on GitHub searching for this kind of content — you’r
 
 ![](./assets/aws-ccp-score.png)
 <img src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"/>
+
 These are excellent preparation notes for the AWS Cloud Practitioner Certification (CLF-C02) in 2023.
 
 The AWS Cloud Practitioner Certification (CLF-C02) is a highly valuable credential for anyone seeking a solid foundation in cloud concepts and a broad understanding of AWS services. With over 200 fully featured services spanning diverse technologies, industries, and use cases, AWS plays a pivotal role in driving digital transformation across organizations of all sizes.
