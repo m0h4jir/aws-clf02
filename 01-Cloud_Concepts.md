@@ -1,5 +1,5 @@
 
-# **1. Cloud Concepts**
+# **1.Cloud Concepts**
 
 ## **1.1 Define the AWS Cloud and its value proposition**
     
