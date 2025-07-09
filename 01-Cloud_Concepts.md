@@ -171,7 +171,7 @@ to improve their Service Level Agreements (SLAs) through High Availability, Reli
 
 to Reduce costs related to infrastructure, freeing the budget for reinvestment in other areas
 
-### **2. Cloud Computing Models
+### **3. Cloud Computing Models**
 
 AWS offers a range of cloud computing models, including:
 
@@ -181,7 +181,7 @@ AWS offers a range of cloud computing models, including:
 
 3. **Software as a Service (SaaS)**: Sagemaker is an example of SaaS, offering ready-to-use software solutions.
 
-# **3. Cloud Adoption Framework**
+# **4. Cloud Adoption Framework**
 
 Leverages AWS experience and best practices to help organizations digitally transform and accelerate their business outcomes through innovative use of AWS.
 
@@ -213,7 +213,7 @@ The *security* perspective helps you achieve the confidentiality, integrity, a
 
 The *operations* perspective focuses on ensuring that cloud services are delivered at a level that is agreed upon with your business stakeholders. Automating and optimizing operations will allow you to effectively scale while improving the reliability of your workloads. This perspective comprises nine capabilities shown in the following figure. Common stakeholders include infrastructure and operations leaders, site reliability engineers, and information technology service managers.
 
-# **4.Best Practice Architecting for the AWS cloud.** 
+# **5.Best Practice Architecting for the AWS cloud.** 
 
 1. **Design for failure**:only encourages you to be a pessimist when designing architectures in the cloud; assume things will fail. In other words, you should always design, implement and deploy for automated recovery from failure.
 
