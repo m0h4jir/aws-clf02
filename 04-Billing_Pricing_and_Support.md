@@ -144,20 +144,68 @@ When a linked account leaves an organization, the linked account can no longer a
 
  ## [Support Plans](https://aws.amazon.com/premiumsupport/plans/)
  
-   1. Basic - free. 
-    * Email support only and discussion forums.
-   1. Developer - $29 pm : 
-    * Fordevelopment and testing. 
-    * 1 contact. 
-    * Cloud support associate via email during business hours.
-   1. Business - $100 pm : 
-    * Production workloads. 
-    * Unlimited contact.
-    * Full Trusted Advisory. 
-    * Email, phone and chat 24/7. Production system down - less than one hour.
-   1. Enterprise - $15k pm
-    * Mission-critical production workloads. 
-    * Exclusive: Technical Account Manager, Concierge support team, infrastructure event support. 
-    * Less than 15m for business critical system down.
+ ### **1. Basic Support (Free)**
+
+- **Role**:
+    - Self-service access to AWS documentation, whitepapers, and forums.
+    - Basic account and billing support (e.g., payment issues).
+    - Service health dashboards for outage monitoring.
+- **Best For**:
+    - Personal projects, experimentation, or non-critical workloads.
+    - Users comfortable troubleshooting without direct AWS assistance.
+
+---
+
+### **2. Developer Support ($29+/month)**
+
+- **Role**:
+    - Email support during business hours (e.g., 9 AM–5 PM in your timezone).
+    - Guidance for development/test environments (non-production).
+    - Response times:
+        - < 24 hours for **non-critical** issues.
+        - No SLA for urgent issues.
+- **Key Features**:
+    - Limited Trusted Advisor checks (7 core checks).
+    - Access to AWS Support API for programmatic case management.
+- **Best For**:
+    - Developers or small teams building/test environments.
+    - Early-stage startups with limited budgets.
+
+---
+
+### **3. Business Support ($100+/month + usage-based)**
+
+- **Role**:
+    - 24/7 support via email, phone, and chat for **production workloads**.
+    - Architectural guidance (e.g., optimizing costs, performance).
+    - Response times:
+        - < 1 hour for **urgent** issues (e.g., production system down).
+        - < 24 hours for non-critical issues.
+- **Key Features**:
+    - Full access to **Trusted Advisor** (all checks for cost, security, performance).
+    - Infrastructure Event Management (IEM) for event planning (additional fee).
+    - Third-party software support (e.g., OS, libraries).
+- **Best For**:
+    - Production environments requiring reliable uptime.
+    - Mid-sized businesses with SLA-driven needs.
+
+---
+
+### **4. Enterprise Support (Custom Pricing)**
+
+- **Role**:
+    - **Mission-critical support** with a dedicated **Technical Account Manager (TAM)**.
+    - Proactive monitoring, guidance, and quarterly reviews.
+    - Response times:
+        - < 15 minutes for **business-critical** system-down scenarios.
+        - < 1 hour for urgent issues.
+- **Key Features**:
+    - **Concierge Support Team**: Assists with billing and account escalations.
+    - **Infrastructure Reviews**: Regular assessments of security, performance, and architecture.
+    - **Operations Support**: Assistance with third-party tools (e.g., Kubernetes, Jenkins).
+    - **Training and Workshops**: Customized sessions for your team.
+- **Best For**:
+    - Large enterprises with complex, high-availability architectures.
+    - Regulated industries (e.g., healthcare, finance) requiring compliance guidance.
 
  ##  [BACK](./03-Cloud_Technology_and_Services.md)  |  [NEXT](./README.md)
