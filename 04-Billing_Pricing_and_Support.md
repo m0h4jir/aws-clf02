@@ -45,7 +45,7 @@
 
 **4.2 Recognize the various account structures in relation to AWS billing and pricing**
 
-    Compute, storage and outbound data transfer is where the costs are for AWS. Data in flight moving between system. Data movement within the AWS region are usually not charged. Data out of AWS to end user is where the data transfer costs are.
+Compute, storage and outbound data transfer is where the costs are for AWS. Data in flight moving between system. Data movement within the AWS region are usually not charged. Data out of AWS to end user is where the data transfer costs are.
    
 How AWS Pricing Works [whitepaper](https://docs.aws.amazon.com/pdfs/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf)
 
@@ -115,7 +115,31 @@ How AWS Pricing Works [whitepaper](https://docs.aws.amazon.com/pdfs/whitepapers/
         * AWS and on-premise license manager.
         * Fine-tune your license costs.
 
- 
+ ### **Consolidated Billing**:
+
+You can use the **consolidated billing** feature in AWS Organizations to consolidate billing and payment for multiple AWS accounts or multiple Amazon Internet Services Pvt. Ltd (AISPL) accounts. Every organization in AWS Organizations has a *master account* that pays the charges of all the *member accounts*. The master account is also called a payer account, and the member account is also known as a linked account.
+
+Consolidated billing has the following benefits:
+
+**One bill** – You get one bill for multiple accounts.
+
+**Easy tracking** – You can track the charges across multiple accounts and download the combined cost and usage data.
+
+**Combined usage** – You can combine the usage across all accounts in the organization to share the volume pricing discounts and Reserved Instance discounts. This can result in a lower charge for your project, department, or company than with individual standalone accounts.
+
+**No extra fee** – Consolidated billing is offered at no additional cost.
+
+If you have access to the payer account, you can see a combined view of the AWS charges that the linked accounts incur. You also can get a cost report for each linked account. AWS and AISPL accounts can’t be consolidated together. If your contact address is in India, you can use AWS Organizations to consolidate AISPL accounts within your organization.
+
+When a linked account leaves an organization, the linked account can no longer access Cost Explorer data that was generated when the account was in the organization. The data isn’t deleted, and the payer account in the organization can still access the data. If the linked account rejoins the organization, the linked account can access the data again.
+
+**Consolidated Billing** allows multiple AWS accounts to be billed together, offering several benefits:
+
+- **Centralized Payment**: Instead of receiving individual bills for each AWS account, a single bill is generated for all accounts under a master account.
+- **Volume Discounts**: By combining usage across accounts, consolidated billing can unlock volume-based discounts (such as for EC2 instances, S3 storage, etc.).
+- **Cost Visibility**: The consolidated bill provides a comprehensive view of total usage and costs, with detailed breakdowns per account and service. This helps in understanding overall spending.
+- **Simplified Billing Management**: It reduces administrative overhead by centralizing payments and reducing the number of invoices.
+  
 **4.3 Identify resources available for billing support**
 
  ## [Support Plans](https://aws.amazon.com/premiumsupport/plans/)
