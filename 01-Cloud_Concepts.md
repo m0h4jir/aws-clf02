@@ -23,10 +23,12 @@
 **Global in minutes**: build new DC  ⇒ Go Global in Mins
     - Easily deploy your application in multiple regions around the world with just a few clicks. This means you can provide lower latency and a better experience for your customers at minimal cost.
         
-    On-Premise: Private Cloud (Data Center)
-    Hybrid : (On-Premise+Public Cloud)
-    Cloud: Public Cloud (AWS,Azure, GCP,etc.)
-    
+     On-Premise: Private Cloud (Data Center)
+     
+     Hybrid : (On-Premise+Public Cloud)
+     
+     Cloud: Public Cloud (AWS,Azure, GCP,etc.)
+     
 
 The **pay-as-you-go (PAYG)** pricing model is a flexible, usage-based approach where costs are directly tied to consumption. Here's a structured breakdown:
 
@@ -214,7 +216,7 @@ The *security* perspective helps you achieve the confidentiality, integrity, a
 
 The *operations* perspective focuses on ensuring that cloud services are delivered at a level that is agreed upon with your business stakeholders. Automating and optimizing operations will allow you to effectively scale while improving the reliability of your workloads. This perspective comprises nine capabilities shown in the following figure. Common stakeholders include infrastructure and operations leaders, site reliability engineers, and information technology service managers.
 
-### **5.Best Practice Architecting for the AWS cloud.** 
+### **5. Best Practice Architecting for the AWS cloud.** 
 
 1. **Design for failure**:only encourages you to be a pessimist when designing architectures in the cloud; assume things will fail. In other words, you should always design, implement and deploy for automated recovery from failure.
 
