@@ -35,7 +35,8 @@ The **pay-as-you-go (PAYG)** pricing model is a flexible, usage-based approach
 - **Granular Pricing**
     
  [For more details, visit AWS Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/?pg=TOCC)   
-## **1.2 Identify aspects of AWS Cloud economics**
+ 
+ ## **1.2 Identify aspects of AWS Cloud economics**
 
 **Total Cost of Ownership (TCO) in AWS**
     
@@ -96,9 +97,9 @@ Three Types of Saving Plans:
 - Dedicated Instances: EC2 instances that run on hardware that’s dedicated to a single customer
 - Dedicated Host: Physical EC2 server fully dedicated for your use “BYOL“
 
-**1.3 List the different cloud architecture design principles**
+## **1.3 List the different cloud architecture design principles**
     
- ### **AWS Well-Architected Framework:**
+### **AWS Well-Architected Framework:**
     
     Helps cloud architects build secure, high-performing, resilient, and efficient infrastructure for a variety of applications and workloads:
     
@@ -181,7 +182,7 @@ AWS offers a range of cloud computing models, including:
 
 3. **Software as a Service (SaaS)**: Sagemaker is an example of SaaS, offering ready-to-use software solutions.
 
-# **4. Cloud Adoption Framework**
+### **4. Cloud Adoption Framework**
 
 Leverages AWS experience and best practices to help organizations digitally transform and accelerate their business outcomes through innovative use of AWS.
 
@@ -213,7 +214,7 @@ The *security* perspective helps you achieve the confidentiality, integrity, a
 
 The *operations* perspective focuses on ensuring that cloud services are delivered at a level that is agreed upon with your business stakeholders. Automating and optimizing operations will allow you to effectively scale while improving the reliability of your workloads. This perspective comprises nine capabilities shown in the following figure. Common stakeholders include infrastructure and operations leaders, site reliability engineers, and information technology service managers.
 
-# **5.Best Practice Architecting for the AWS cloud.** 
+### **5.Best Practice Architecting for the AWS cloud.** 
 
 1. **Design for failure**:only encourages you to be a pessimist when designing architectures in the cloud; assume things will fail. In other words, you should always design, implement and deploy for automated recovery from failure.
 
