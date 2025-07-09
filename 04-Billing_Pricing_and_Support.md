@@ -49,69 +49,69 @@
    
 How AWS Pricing Works [whitepaper](https://docs.aws.amazon.com/pdfs/whitepapers/latest/how-aws-pricing-works/how-aws-pricing-works.pdf)
 
-[TCO](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-pricingtco-tools.html) 
+* [TCO](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/aws-pricingtco-tools.html) 
         * Total Cost of Ownership. Direct and indirect cost of running AWS workloads. How can I reduce my TCO using AWS?
         * Minimize capital expenditures.
         * Utilize reserved instances.
         * Right size your resources.
         * Does not consider Networking or Data costs. No personnel or facilities costs.
-[AWS Price List API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html)
+* [AWS Price List API](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html)
         * Query the price of AWS Services using JSON or CSV. Bulk price or individual APIs.
         * Receive price alerts when prices change.
-[Application Disovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
+* [Application Disovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
         * Determine the cost of migrating to the cloud.
         * Plan migration projects and estimate TCO.
         * You can view the discovered servers, group them into applications, and then track the migration status of each application from the Migration Hub console in your home Region.
-[Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html)
+* [Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html)
         * Set custom budgets for cost and usage tracking. Alerts.
         * Cost, usage and reservation budgets.
         * You can choose to be notified through email and Amazon SNS topics when your utilization drops below 80 percent for a given day.
-[Cost and Usage Reports](https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html)
+* [Cost and Usage Reports](https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html)
         * Break down costs by the hour, day, or month, by product or product resource, or by tags that you define yourself.
         * If you get a huge bill - this is where you need to find the needle in the haystack.
         * Downloadable detailed and comprehensive report, list usage for each service category and aggregate usage data on a daily, hourly or monthly level.
         * Cost Allocation Tags
             * Label resources using key-value pairrs.
             * Track costs via the cost allocation report.
-[Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
+* [Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
         * Visualize, understand, and manage your AWS costs and usage over time.
         * Forecast, build custom apps that use it's apis, and use granular filtering offered by it's analytical engine.
-[Organizations](https://aws.amazon.com/organizations/)
+* [Organizations](https://aws.amazon.com/organizations/)
         * Centrally manage your environment as you scale your AWS resources. Consolidate billing, save costs via volume discounts + reserved instance sharing and govern accounts centrally.
         * Programmatically create AWS accounts as you scale at no additional charge.
         * Centrally secure and audit. Manage and optimize costs centrally. Group accounts and apply policies across.
         * Root Organization is the master payer account that pays for all the accounts. 
         * You can apply Service Control Policies (SCPs) across all member accounts within the organization.
-[Control Tower](https://aws.amazon.com/controltower/)
+* [Control Tower](https://aws.amazon.com/controltower/)
         * Set up well-architected multi-account environments with pre-configured controls to ensure best practices.
         * Provides dashboard to help manage accounts.
         * Example, if you want to disallow public write access to all S3 buckets across your accounts - you can use Control Tower to enforce this.
-[Systems Manager](https://aws.amazon.com/systems-manager/)
+* [Systems Manager](https://aws.amazon.com/systems-manager/)
         * Operation insights into AWS resources, other cloud resources and on-prem resources.
         * Automate configuration and ongoing management including instance compliance relative to patch, configuration and custom policies.
         * Visibility and control. Group resources to take action. Patch and run commands on multiple EC2 and RDS.
         * Usecase: Deploy operating system and software patchs automatically across a large group of instances. 
-[Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+* [Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
         * Cost, Performance, Security, Fault Tolerance, and Service Limits.
         * Checks IAM password policy (not free). RDS public snapshot, service usage greater than 80% (available to business or enterprise). Check for exposed access keys (business support) and various other checks.
         * Use case: check read and write capacity service limits for DynamoDB.
-[Personal Health Dashboard](https://aws.amazon.com/premiumsupport/technology/aws-health-dashboard/)
+* [Personal Health Dashboard](https://aws.amazon.com/premiumsupport/technology/aws-health-dashboard/)
         * Alerts you on impacts to your AWS environment.
-[Marketplace](https://aws.amazon.com/marketplace)
+* [Marketplace](https://aws.amazon.com/marketplace)
         * Digital catalog of prebuilt solutions you can purchase or license.
-[AWS Partner Network (APN)](https://aws.amazon.com/partners/)
+* [AWS Partner Network (APN)](https://aws.amazon.com/partners/)
         * Global community of approved partners that offer solutions and consulting services
         * Help design and build a new application.
-[Managed Services](https://aws.amazon.com/managed-services/)
+* [Managed Services](https://aws.amazon.com/managed-services/)
         * Augment internall staff with additional resources to manage AWS.
         * Patch management, monitoring, event management, cost optimization etc.
         * Will not operate or configur your applications.
-[Professional Services](https://aws.amazon.com/professional-services/)
+* [Professional Services](https://aws.amazon.com/professional-services/)
         * Move to a cloud based operating model
         * Propose solutions.
         * Architect soutions.
         * You can quickly move from on-prem to cloud.
-[AWS License Manager](https://aws.amazon.com/license-manager/)
+* [AWS License Manager](https://aws.amazon.com/license-manager/)
         * AWS and on-premise license manager.
         * Fine-tune your license costs.
 
